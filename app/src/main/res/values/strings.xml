@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TransporteUDB-v0.3</string>
+    <string name="loginText">Transporte UDB</string>
+    <string name="carnet_login">CARNÉ</string>
+    <string name="pass_login">CONTRASEÑA</string>
+    <string name="hint_carne">MP170243</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="ruta">SANTA TECLA - UDB</string>
+    <string name="rutabus">AUTOBUS</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae mollis nisl. Duis scelerisque magna nec</string>
+    <string name="contacto">INFORMACIÓN DE CONTACTO</string>
+    <string name="in">Entradas</string>
+    <string name="out">Salidas</string>
+    <string name="nombre">Nombre:</string>
+    <string name="telefono">Número de teléfono:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="adminHeader">Pantalla de administrador</string>
+    <string name="main">Pantalla principal</string>
+    <string name="admin">Pantalla de administrador</string>
+    <string name="Popup_title">Significado de los colores</string>
+    <string name="red">Ruta fuera de servicio</string>
+    <string name="green">Ruta realizando viaje</string>
+    <string name="yellow">Ruta con desperfectos mecánicos</string>
+    <string name="Popup_title2">Como usar los botones</string>
+    <string name="Transmitir">Con este botón transmitirá en tiempo real la ubicación de su ruta</string>
+    <string name="Apagartrans">Con este botón dejará de transmitir la ubicación de su ruta, se recomienda apagarla al terminar sus viajes</string>
+    <string name="Desperfectos">Con este botón informará que su ruta posee desperfectos mecánicos por lo cual dejará de transmitir su ubicación</string>
+
+</resources>

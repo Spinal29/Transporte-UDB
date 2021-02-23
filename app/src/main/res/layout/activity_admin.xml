@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_main" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="32dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_zone"
+                android:drawablePadding="8dp"
+                android:elevation="2dp"
+                android:minWidth="250dp"
+                android:onClick="mantZona"
+                android:padding="8dp"
+                android:text="Mantenimiento Zonas"
+                android:textColor="@color/White" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_zone"
+                android:drawablePadding="8dp"
+                android:elevation="2dp"
+                android:minWidth="250dp"
+                android:onClick="mantDoble"
+                android:padding="8dp"
+                android:text="Mantenimiento Propietarios y Motoristas"
+                android:textColor="@color/White" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_time"
+                android:drawablePadding="8dp"
+                android:elevation="2dp"
+                android:minWidth="250dp"
+                android:onClick="mantItinerario"
+                android:padding="8dp"
+                android:text="Mantenimiento Itinerarios"
+                android:textColor="@color/White" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_busw"
+                android:drawablePadding="8dp"
+                android:elevation="2dp"
+                android:minWidth="250dp"
+                android:onClick="mantUnidades"
+                android:padding="8dp"
+                android:text="Mantenimiento Unidades"
+                android:textColor="@color/White" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_book"
+                android:drawablePadding="8dp"
+                android:elevation="2dp"
+                android:minWidth="250dp"
+                android:onClick="mantUsuarios"
+                android:padding="8dp"
+                android:text="Mantenimiento Usuarios"
+                android:textColor="@color/White" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
